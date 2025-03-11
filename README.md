@@ -1,4 +1,5 @@
-# gRPC# Uses of gRPC in a MERN Stack Application
+# gRPC
+# Uses of gRPC in a MERN Stack Application
 
 gRPC (Google Remote Procedure Call) is a **high-performance, language-agnostic RPC (Remote Procedure Call) framework** that allows efficient communication between microservices. It can be beneficial in a MERN (MongoDB, Express.js, React.js, Node.js) stack application for several reasons:
 
