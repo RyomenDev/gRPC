@@ -17,17 +17,47 @@ function Login() {
   };
 
   return (
-    <div>
-      <h2>Login</h2>
+    <div
+      style={{
+        backgroundColor: "purple",
+        color: "white",
+        padding: "10px",
+        display: "flex",
+        flexDirection: "column",
+        justifyContent: "center",
+        alignItems: "center",
+        height: "40%",
+        width: "40%",
+      }}
+    >
+      <h2
+        style={{
+          color: "white",
+          padding: "10px",
+          margin: "10px",
+        }}
+      >
+        Login
+      </h2>
       <input
         type="email"
         placeholder="Email"
         onChange={(e) => setEmail(e.target.value)}
+        style={{
+          color: "white",
+          padding: "10px",
+          margin: "10px",
+        }}
       />
       <input
         type="password"
         placeholder="Password"
         onChange={(e) => setPassword(e.target.value)}
+        style={{
+          color: "white",
+          padding: "10px",
+          margin: "10px",
+        }}
       />
       <button onClick={handleLogin}>Login</button>
       <p>{message}</p>
