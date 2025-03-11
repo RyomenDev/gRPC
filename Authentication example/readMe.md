@@ -31,7 +31,9 @@ node grpcServer.js
 Start the Express API
 
 ```sh
-node restServer.js
+node index.js
+// or
+npm run dev
 ```
 
 Run React App
