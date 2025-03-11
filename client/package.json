@@ -10,6 +10,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@grpc/grpc-js": "^1.12.6",
+    "@grpc/proto-loader": "^0.7.13",
+    "google-protobuf": "^3.21.4",
+    "grpc-web": "^1.5.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
